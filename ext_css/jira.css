@@ -1,0 +1,260 @@
+
+* {
+  font-feature-settings: 'pnum' 1, 'kern' 1, 'liga' 1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif, 'Apple Color Emoji';
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+#title-text {
+  font-size: 2.125em;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6, .confluence-information-macro, ul, ol, blockquote, q, p {
+  max-width: 850px;
+}
+
+.jvm-fullimage p {
+  max-width: none;
+}
+
+.jvm-summary {
+  font-size: 1.3em;
+  font-weight: 300;
+  max-width: 45em;
+  color: #555;
+}
+
+.confluence-information-macro, .confluence-information-macro-information {
+  background-color: #fefefe;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.confluence-information-macro>.title {
+  font-weight: 800; 
+}
+
+
+pre, samp, code, .syntaxhighlighter, .syntaxhighlighter * {
+  font-family: 'SF Mono', 'Consolas', 'Monaco', monospace !important;
+}
+
+blockquote {
+  border-left: 2px solid #ccc;
+  color: #707070;
+  font-size: 1.2em;
+  margin: 20px 0 20px 8px;
+  padding: 0px 20px;
+}
+
+.wiki-content h2, .wiki-content h3, .wiki-content h4, .wiki-content h5, .wiki-content h6 {
+  font-weight: 600;
+}
+
+.wiki-content h2 {
+  margin: 50px 0 0 0; 
+}
+
+.wiki-content h4 {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 25px 0 0 0;
+}
+
+table.confluenceTable {
+  max-width: 1150px;
+}
+
+table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh>p, .confluenceTh {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  vertical-align: bottom;
+  background-color: #fcfcfc;
+}
+
+table.confluenceTable td.confluenceTd, table.confluenceTable td.confluenceTd>p, .confluenceTd {
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.wiki-content table.tablesorter>thead>tr>th {
+  background-color: #fcfcfc !important;
+}
+
+thead.tableFloatingHeaderOriginal {
+  box-shadow: 0 1px 0 rgba(0,0,0,.25);
+}
+
+.expand-container {
+  margin: 10px 0 0 0;
+}
+
+.expand-container .expand-control-icon.icon {
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-right: 2px;
+}
+
+.expand-container .expand-control-icon.icon.expanded {
+  border-color: #ccc;
+  background-color: #fafafa;
+}
+
+.expand-container .expand-content {
+  box-shadow: 0 0 0 1px #dfdfdf;
+  padding: 1em;
+  border-radius: 2px;
+}
+
+.jvm-relatedtext {
+  font-size: .75rem;
+  padding-top: .5rem;
+}
+
+.confluence-information-macro .confluence-information-macro-icon.aui-iconfont-warning {
+  color: currentColor;
+}
+
+div.toc-macro {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  max-width: 300px;
+  padding: 0 16px 16px;
+}
+
+div.toc-macro ul {
+  font-weight: 600;
+  padding-left: 0;
+}
+
+div.toc-macro ul li {
+  padding-top: 16px;
+}
+
+div.toc-macro ul ul {
+  font-weight: 400;
+  font-size: .875em;
+  padding-top: 0;
+  padding-left: 2em;
+}
+
+div.toc-macro ul ul li {
+  padding-top: 8px;
+}
+
+
+.tableFilterCbStyle {
+  display: none;
+}
+
+/* Copying from Google Drive sometimes includes nasty span stuff */
+span[style*="color: rgb(0,0,0)"] {
+  color: inherit !important;
+}
+
+#main-content .table-wrap {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.jvm-colorchip-dark {
+  color: #111012;
+}
+
+.jvm-colorchip-light {
+  color: #fefefe;
+}
+
+.jvm-colorchip-dark,
+.jvm-colorchip-light {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 120px;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 100px 10px 10px;
+  position: relative;
+  text-align: right;
+  width: 120px;
+}
+
+.jvm-colorchip-dark::before,
+.jvm-colorchip-light::before {
+  content:attr(title);
+  left: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  top: 10px;
+}
+
+
+.jvm-colorchip-dark p,
+.jvm-colorchip-light p {
+  margin: 0;
+  padding: 0;
+}
+
+span[style*="color: rgb(255,0,0)"] {
+  color: #e03135 !important;
+}
+
+span[style*="color: rgb(192,192,192)"] {
+  color: #aaa9ab !important;
+}
+
+.wiki-content .confluence-embedded-file-wrapper .confluence-embedded-image[height],
+.wiki-content .confluence-embedded-file-wrapper .confluence-embedded-image[width] {
+  max-width: 100%;
+}
+
+/* If a cell is aligned right, it probably means it has tabular data.
+   Force typefaces to use tabular lining figures so numbers line up. */
+.confluenceTd[style*="text-align: right"] {
+  font-variant-numeric: tabular-nums;
+  -moz-font-feature-settings: "tnum";
+  -webkit-font-feature-settings: "tnum";
+  font-feature-settings: "tnum";
+}
+
+.wiki-content table.tablesorter>thead>tr>th {
+  padding-right: 10px;
+}
+
+.wiki-content table.tablesorter>thead>tr>th {
+  background: #f0f0f0 center right -3px no-repeat;
+}
+
+td.gallery-image, td.gallery-image img, .gallery td {
+  height: auto !important;
+  width: 100px !important;
+}
+
+.handy-header {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .15s, visibility 0s .15s;
+}
+
+h1:hover .handy-header,
+h2:hover .handy-header,
+h3:hover .handy-header,
+h4:hover .handy-header,
+h5:hover .handy-header,
+h6:hover .handy-header {
+  opacity: .2;
+  visibility: visible;
+  transition: opacity .15s, visibility 0s 0s;
+}
+
+.handy-header:hover {
+  opacity: .75;
+}
