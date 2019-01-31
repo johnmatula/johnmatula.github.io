@@ -1,0 +1,10 @@
+/* Use in conjunction with jira.css */ 
+
+table.confluenceTable colgroup col:nth-child(1) {
+  width: 20% !important;
+}
+
+table.confluenceTable colgroup col:nth-child(2), 
+table.confluenceTable colgroup col:nth-child(3) {
+  width: 40% !important;
+}
