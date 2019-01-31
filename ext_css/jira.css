@@ -265,5 +265,6 @@ h6:hover .handy-header {
 }
 
 .tfac-macro-inserter {
-  margin-left: -6px !important;
+  margin-left: -15px;
+  opacity: .75;
 }
