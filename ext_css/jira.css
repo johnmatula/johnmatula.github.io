@@ -126,8 +126,8 @@ thead.tableFloatingHeaderOriginal {
 div.toc-macro {
   border: 2px solid #ccc;
   border-radius: 4px;
-  max-width: 300px;
-  padding: 0 16px 16px;
+  max-width: 250px;
+  padding: 8px 16px 16px;
 }
 
 div.toc-macro ul {
@@ -136,10 +136,6 @@ div.toc-macro ul {
 }
 
 div.toc-macro ul li {
-  padding-top: 16px;
-}
-
-div.toc-macro ul:first-child li {
   padding-top: 8px;
 }
 
