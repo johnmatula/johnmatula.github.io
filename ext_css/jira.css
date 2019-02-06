@@ -119,7 +119,10 @@ thead.tableFloatingHeaderOriginal {
   padding-top: .5rem;
 }
 
-.confluence-information-macro .confluence-information-macro-icon.aui-iconfont-warning {
+.confluence-information-macro .confluence-information-macro-icon.aui-iconfont-warning,
+.confluence-information-macro .confluence-information-macro-icon.aui-iconfont-info,
+.confluence-information-macro .confluence-information-macro-icon.aui-iconfont-error,
+.confluence-information-macro .confluence-information-macro-icon.aui-iconfont-approve {
   color: currentColor;
 }
 
