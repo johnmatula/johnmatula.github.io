@@ -277,6 +277,9 @@ h6:hover .handy-header {
 }
 
 .aui-lozenge {
+  background: #efeef0;
+  border: 0;
+  color: #757476;
   font-size: 12px;
   font-weight: 800;
   line-height: 12px;
@@ -284,6 +287,27 @@ h6:hover .handy-header {
   text-transform: lowercase;
 }
 
+.aui-lozenge.aui-lozenge-error {
+  background: #b1090d;
+  color: #fefefe;
+}
+
+.aui-lozenge.aui-lozenge-current {
+  background-color: #faa827;
+  color: #111012;
+}
+
+.aui-lozenge.aui-lozenge-success {
+  background-color: #54bc80;
+  color: #111012;
+}
+
+.aui-lozenge-complete {
+  background-color: #e5d0f2;
+  color: #111012;
+}
+
 .aui-lozenge::first-letter {
   text-transform: uppercase;
 }
+
