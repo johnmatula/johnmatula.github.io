@@ -271,3 +271,15 @@ h6:hover .handy-header {
   width:22px;
   overflow:hidden;
 }
+
+.status-macro {
+  min-width: 0;
+}
+
+.aui-lozenge {
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 12px;
+  padding: 4px 8px 5px;
+  text-transform: none;
+}
