@@ -281,5 +281,9 @@ h6:hover .handy-header {
   font-weight: 800;
   line-height: 12px;
   padding: 4px 8px 5px;
-  text-transform: none;
+  text-transform: lowercase;
+}
+
+.aui-lozenge::first-letter {
+  text-transform: uppercase;
 }
