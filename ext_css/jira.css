@@ -12,6 +12,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, .confluence-information-macro, ul, ol, blockquote, q, p {
+  box-sizing: border-box;
   max-width: 850px;
 }
 
@@ -133,6 +134,7 @@ thead.tableFloatingHeaderOriginal {
 }
 
 div.toc-macro {
+  box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
   max-width: 250px;
