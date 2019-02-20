@@ -46,7 +46,12 @@ h1, h2, h3, h4, h5, h6, .confluence-information-macro, ul, ol, blockquote, q, p 
 
 
 pre, samp, code, .syntaxhighlighter, .syntaxhighlighter * {
-  font-family: 'SF Mono', 'Consolas', 'Monaco', monospace !important;
+  background: #e8e9e7;
+  border-radius: 3px;
+  font-family: 'SF Mono', 'Monaco', 'Consolas', monospace !important;
+  font-size: 90%;
+  margin: 0 1px;
+  padding: 0 2px;
 }
 
 blockquote {
@@ -323,4 +328,3 @@ h6:hover .handy-header {
 .wiki-content .aui-lozenge::first-letter {
   text-transform: uppercase;
 }
-
