@@ -46,11 +46,14 @@ h1, h2, h3, h4, h5, h6, .confluence-information-macro, ul, ol, blockquote, q, p 
 
 
 pre, samp, code, .syntaxhighlighter, .syntaxhighlighter * {
-  background: #e8e9e7;
+  background: #f5f4f6;
   border-radius: 3px;
   font-family: 'SF Mono', 'Monaco', 'Consolas', monospace !important;
   font-size: 90%;
   margin: 0 1px;
+}
+
+code {
   padding: 0 2px;
 }
 
@@ -327,4 +330,26 @@ h6:hover .handy-header {
 
 .wiki-content .aui-lozenge::first-letter {
   text-transform: uppercase;
+}
+
+.pdl .syntaxhighlighter a, .pdl .syntaxhighlighter div, .pdl .syntaxhighlighter code, .pdl .syntaxhighlighter table, .pdl .syntaxhighlighter table td, .pdl .syntaxhighlighter table tr, .pdl .syntaxhighlighter table tbody, .pdl .syntaxhighlighter table thead, .pdl .syntaxhighlighter table caption, .pdl .syntaxhighlighter textarea {
+  font-size: inherit;
+  line-height: 150%;
+}
+
+.pdl .codeContent .syntaxhighlighter>table td:first-child {
+  padding-left: 8px;
+}
+
+.pdl .syntaxhighlighter table td.code .container {
+  margin-top: 8px;
+  padding-bottom: 8px;
+}
+
+div.panel.pdl {
+  border-width: 0px !important;
+}
+
+.syntaxhighlighter.sh-confluence {
+  background-color: #f5f4f6 !important;
 }
