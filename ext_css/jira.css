@@ -16,11 +16,9 @@ h1, h2, h3, h4, h5, h6, .confluence-information-macro, ul, ol, blockquote, q, p 
   max-width: 850px;
 }
 
-h1#title-text {
-  max-width: none;
-}
-
-.jvm-fullimage p {
+h1#title-text,
+.jvm-fullimage p,
+ul#poweredby {
   max-width: none;
 }
 
