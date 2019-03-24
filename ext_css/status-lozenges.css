@@ -49,3 +49,8 @@ span.aui-lozenge-subtle.aui-lozenge-default.issue-placeholder {
   border-radius: 0;
   padding: 0;
 }
+
+.wiki-content time.date-past {
+  color: #b1090d;
+  font-weight: 500;
+}
