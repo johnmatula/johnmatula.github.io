@@ -39,3 +39,13 @@ span.aui-lozenge-subtle.aui-lozenge-default.issue-placeholder {
   padding: 0;
   border-radius: 0 3px 3px 0;
 }
+
+/* sort of related: time styling */
+.wiki-content time,
+.wiki-content time.handy-date-time {
+  background-image: none;
+  background-color: none;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
