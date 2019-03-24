@@ -28,7 +28,6 @@
 /* Colors are defined in main jira.css */
 .wiki-content .jira-issue .aui-lozenge,
 span.aui-lozenge-subtle.aui-lozenge-default.issue-placeholder {
-  background-color: #efeef0;
   border: 0;
   font-size: 0;
   text-indent: -9999px;
