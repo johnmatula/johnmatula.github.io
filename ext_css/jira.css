@@ -325,7 +325,8 @@ h6:hover .handy-header {
   color: #111012;
 }
 
-.wiki-content .aui-lozenge-complete {
+.wiki-content .aui-lozenge-complete,
+.wiki-content .aui-lozenge-complete.aui-lozenge-subtle, #property-panel a.macro-property-panel-Blue span.icon.aui-lozenge-subtle {
   background-color: #e5d0f2;
   color: #111012;
 }
