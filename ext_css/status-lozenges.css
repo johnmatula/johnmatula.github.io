@@ -8,6 +8,7 @@
 .jira-issue, .unknown-jira-issue {
   background: #efeef0;
   border: 0;
+  font-size: 0;
   padding: 0;
   line-height: 0;
 }
@@ -15,7 +16,7 @@
 .wiki-content .jira-issue>a, .wiki-content .single-issue-oauth.unknown-jira-issue>a, .wiki-content .lock-jira-issue>a {
   line-height: 16px;
   font-size: 13px;
-  padding: 2px 7px 2px 2px;
+  padding: 2px 4px 2px 2px;
   display: inline-block;
 }
 
