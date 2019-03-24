@@ -21,12 +21,14 @@
 .wiki-content .jira-issue>a, .wiki-content .single-issue-oauth.unknown-jira-issue>a, .wiki-content .lock-jira-issue>a {
   line-height: 16px;
   font-size: 13px;
-  padding: 2px 4px 2px 2px;
+  padding: 2px 6px 2px 2px;
   display: inline-block;
 }
 
 /* Colors are defined in main jira.css */
-.wiki-content .jira-issue .aui-lozenge {
+.wiki-content .jira-issue .aui-lozenge,
+span.aui-lozenge-subtle.aui-lozenge-default.issue-placeholder {
+  background: #efeef0;
   border: 0;
   font-size: 0;
   text-indent: -9999px;
