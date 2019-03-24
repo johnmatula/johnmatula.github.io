@@ -44,7 +44,7 @@ span.aui-lozenge-subtle.aui-lozenge-default.issue-placeholder {
 .wiki-content time,
 .wiki-content time.handy-date-time {
   background-image: none;
-  background-color: none;
+  background-color: transparent;
   border: 0;
   border-radius: 0;
   padding: 0;
