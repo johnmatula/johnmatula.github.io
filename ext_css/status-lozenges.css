@@ -11,6 +11,11 @@
   font-size: 0;
   padding: 0;
   line-height: 0;
+  white-space: nowrap;
+}
+
+.jira-issue .summary {
+  white-space: normal;
 }
 
 .wiki-content .jira-issue>a, .wiki-content .single-issue-oauth.unknown-jira-issue>a, .wiki-content .lock-jira-issue>a {
