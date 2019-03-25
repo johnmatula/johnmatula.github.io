@@ -57,6 +57,7 @@ span.aui-lozenge-subtle.aui-lozenge-default.issue-placeholder {
   top: 0;
   right: 0;
   bottom: 0;
+  pointer-events: none;
 }
 
 span.aui-icon-wait.issue-placeholder {
