@@ -148,6 +148,7 @@ div.toc-macro {
   border: 2px solid #ccc;
   border-radius: 4px;
   line-height: 120%;
+  list-style: none;
   max-width: 250px;
   padding: 8px 16px 16px;
 }
