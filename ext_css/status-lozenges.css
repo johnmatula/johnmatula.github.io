@@ -81,6 +81,17 @@ span.aui-icon-wait.issue-placeholder {
 
 
 /* Experimental name badge */
+.wiki-content .user-mention {
+  background: transparent;
+  padding: 0 2px;
+  border: 0;
+  border-radius: 0;
+  line-height: 1.42857142857143;
+}
+
+.wiki-content .current-user-mention:link, .wiki-content .current-user-mention:hover, .wiki-content .current-user-mention:active, .wiki-content .current-user-mention:visited {
+  color: #3572b0;
+}
 
 .wiki-content .user-mention:before, .wiki-content .user-mention:hover:before, .wiki-content .user-mention:active:before, .wiki-content .user-mention:visited:before {
   background-color: #efeef0;
