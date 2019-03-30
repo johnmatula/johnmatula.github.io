@@ -406,3 +406,8 @@ div.panel.pdl {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+/* Handy button macro */
+.aui-button.handy-button.button {
+  font-weight: 400;
+}
