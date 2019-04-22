@@ -365,7 +365,7 @@ div.panel.pdl {
 /* Name badge */
 .wiki-content .user-mention {
   background: transparent;
-  padding: 0 2px;
+  padding: 0;
   border: 0;
   border-radius: 0;
   line-height: 1.42857142857143;
