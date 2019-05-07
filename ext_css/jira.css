@@ -433,3 +433,7 @@ div.panel.pdl {
 .aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar td a, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar td span {
   font-family: inherit;
 }
+
+.aui-datepicker-dialog .ui-datepicker .ui-datepicker-today {
+  font-weight: 800;
+}
