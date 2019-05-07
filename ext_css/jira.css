@@ -415,3 +415,21 @@ div.panel.pdl {
 .aui-button.handy-button.button {
   font-weight: 400 !important;
 }
+
+
+
+.aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar>thead>tr>th:first-child, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar>tbody>tr>td:first-child {
+  padding-left: 0;
+}
+
+.aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar>thead>tr>th:last-child, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar>tbody>tr>td:last-child {
+  padding-right: 0;
+}
+
+.aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar>tbody>tr>td {
+  text-align: left;
+}
+
+.aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar td a, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar td span {
+  font-family: inherit;
+}
