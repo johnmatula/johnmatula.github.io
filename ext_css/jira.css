@@ -35,6 +35,32 @@ ul#poweredby {
   margin: 2rem 0;
 }
 
+.jvm-big-table-number, .jvm-big-table-number.output-inline {
+  align-items: center;
+  background: #f4f3f5;
+  border-radius: 20px;
+  display: inline-flex;
+  font-size: 22px;
+  font-weight: 300;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: -0.75px;
+  line-height: 20px;
+  width: 40px;
+}
+
+.jvm-ux-research-title {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 1px;
+}
+
+.jvm-ux-research-date {
+  font-size: 12px;
+}
+
+
+
 .confluence-information-macro, .confluence-information-macro-information {
   background-color: #fefefe;
   border: 2px solid #ccc;
