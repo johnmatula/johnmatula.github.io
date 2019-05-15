@@ -59,6 +59,41 @@ ul#poweredby {
   font-size: 12px;
 }
 
+.jvm-button-container {
+  margin-top: 10px;
+}
+
+.wiki-content .jvm-button-container a {
+  box-sizing: border-box;
+  background: #532c6c;
+  border: 1px solid #532c6c;
+  border-radius: 3px;
+  color: #fefefe;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 14px;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 1.42857143;
+  margin: 0;
+  padding: 4px 10px;
+  text-align: right;
+  text-decoration: none;
+  transition: background .15s;
+  vertical-align: baseline;
+}
+
+.wiki-content .jvm-button-container a:hover,
+.wiki-content .jvm-button-container a:focus {
+  background: #8658a3;
+}
+
+.wiki-content .jvm-button-container a:active {
+  background: #3a1d4c;
+  transition: all 0s;
+}
+
 
 
 .confluence-information-macro, .confluence-information-macro-information {
