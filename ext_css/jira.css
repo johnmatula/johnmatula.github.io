@@ -11,7 +11,7 @@
   font-weight: 500;
 }
 
-h1, h2, h3, h4, h5, h6, .confluence-information-macro, ul, ol, blockquote, q, p {
+h1, h2, h3, h4, h5, h6, .confluence-information-macro, ul, ol, blockquote, q, p, .embeddedObject {
   box-sizing: border-box;
   max-width: 850px;
 }
