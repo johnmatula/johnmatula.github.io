@@ -16,6 +16,23 @@ h1, h2, h3, h4, h5, h6, .confluence-information-macro, ul, ol, blockquote, q, p,
   max-width: 850px;
 }
 
+.wiki-content ul li,
+.wiki-content ol li {
+  padding-top: .5em;
+}
+
+.wiki-content ul li:first-child,
+.wiki-content ol li:first-child {
+  padding-top: 0em;
+}
+
+.wiki-content ul li ul li:first-child,
+.wiki-content ol li ul li:first-child,
+.wiki-content ul li ol li:first-child,
+.wiki-content ol li ol li:first-child {
+  padding-top: .5em;
+}
+
 h1#title-text,
 .jvm-fullimage p,
 ul#poweredby {
