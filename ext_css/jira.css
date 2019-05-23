@@ -525,3 +525,18 @@ div.panel.pdl {
 .aui-datepicker-dialog .ui-datepicker .ui-datepicker-today {
   font-weight: 800;
 }
+
+.wiki-content ul.inline-task-list>li {
+  background-position: 0 .4rem;
+}
+
+.wiki-content a.handy-task-adder-shower {
+  opacity: .75;
+  font-style: normal;
+}
+
+.wiki-content a.handy-task-adder-shower:hover,
+.wiki-content a.handy-task-adder-shower:focus,
+.wiki-content a.handy-task-adder-shower:active {
+  opacity: 1;
+}
