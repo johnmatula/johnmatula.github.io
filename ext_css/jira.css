@@ -68,6 +68,10 @@ h2 > strong > u, h2 > u > strong {
   width: 40px;
 }
 
+h2 > u {
+  text-decoration: none;
+}
+
 h2 > strong > u, h2 > u > strong {
   margin-right: 10px;
 }
