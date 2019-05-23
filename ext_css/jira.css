@@ -52,7 +52,8 @@ ul#poweredby {
   margin: 2rem 0;
 }
 
-.jvm-big-table-number, .jvm-big-table-number.output-inline {
+.jvm-big-table-number, .jvm-big-table-number.output-inline,
+h2 > strong > u, h2 > u > strong {
   align-items: center;
   background: #f4f3f5;
   border-radius: 20px;
@@ -63,7 +64,12 @@ ul#poweredby {
   justify-content: center;
   letter-spacing: -0.75px;
   line-height: 20px;
+  text-decoration: none;
   width: 40px;
+}
+
+h2 > strong > u, h2 > u > strong {
+  margin-right: 10px;
 }
 
 .jvm-ux-research-title {
