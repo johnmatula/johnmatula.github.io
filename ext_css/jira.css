@@ -109,6 +109,7 @@ h2 > strong > u, h2 > u > strong {
   text-decoration: none;
   transition: background .15s;
   vertical-align: baseline;
+  white-space: nowrap;
 }
 
 .wiki-content .jvm-button-container a:hover,
