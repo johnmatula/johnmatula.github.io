@@ -409,7 +409,8 @@ h6:hover .handy-header {
   color: #fefefe;
 }
 
-.wiki-content .aui-lozenge.aui-lozenge-current {
+.wiki-content .aui-lozenge.aui-lozenge-current,
+.wiki-content .aui-lozenge.aui-lozenge-moved {
   background-color: #faa827;
   color: #111012;
 }
