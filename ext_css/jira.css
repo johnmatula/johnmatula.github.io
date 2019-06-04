@@ -86,11 +86,18 @@ h2 > strong > u, h2 > u > strong {
   font-size: 12px;
 }
 
-.jvm-button-container {
-  margin-top: 10px;
+.jvm-button-container,
+.jvm-button-container--secondary {
+  margin: 10px 0;
 }
 
-.wiki-content .jvm-button-container a {
+.wiki-content td .jvm-button-container,
+.wiki-content td .jvm-button-container--secondary {
+  margin: 0;
+}
+
+.wiki-content .jvm-button-container a,
+.wiki-content .jvm-button-container--secondary a {
   box-sizing: border-box;
   background: #532c6c;
   border: 1px solid #532c6c;
@@ -107,17 +114,29 @@ h2 > strong > u, h2 > u > strong {
   padding: 4px 10px;
   text-align: right;
   text-decoration: none;
-  transition: background .15s;
+  transition: background .15s, color .15s;
   vertical-align: baseline;
   white-space: nowrap;
 }
 
-.wiki-content .jvm-button-container a:hover,
-.wiki-content .jvm-button-container a:focus {
-  background: #8658a3;
+
+.wiki-content .jvm-button-container--secondary a {
+  background: #f7f7f7;
+  border-color: transparent;
+  color: #111;
+  font-weight: 400;
 }
 
-.wiki-content .jvm-button-container a:active {
+.wiki-content .jvm-button-container a:hover,
+.wiki-content .jvm-button-container a:focus,
+.wiki-content .jvm-button-container--secondary a:hover,
+.wiki-content .jvm-button-container--secondary a:focus {
+  background: #8658a3;
+  color: #fefefe;
+}
+
+.wiki-content .jvm-button-container a:active,
+.wiki-content .jvm-button-container--secondary a:active {
   background: #3a1d4c;
   transition: all 0s;
 }
