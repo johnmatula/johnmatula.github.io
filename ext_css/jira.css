@@ -473,7 +473,7 @@ div.panel.pdl {
 
 
 /* Name badge */
-.wiki-content .user-mention {
+.wiki-content a.user-mention {
   background: transparent;
   padding: 0;
   border: 0;
@@ -481,11 +481,24 @@ div.panel.pdl {
   line-height: 1.42857142857143;
 }
 
-.wiki-content .current-user-mention:link, .wiki-content .current-user-mention:hover, .wiki-content .current-user-mention:active, .wiki-content .current-user-mention:visited {
+.wiki-content a.user-mention,
+.wiki-content a.user-mention:link,
+.wiki-content a.user-mention:hover,
+.wiki-content a.user-mention:active,
+.wiki-content a.user-mention:visited {
+  background: transparent;
+}
+
+.wiki-content a.user-mention.current-user-mention,
+.wiki-content a.user-mention.current-user-mention:link,
+.wiki-content a.user-mention.current-user-mention:hover,
+.wiki-content a.user-mention.current-user-mention:active,
+.wiki-content a.user-mention.current-user-mention:visited {
+  background: transparent;
   color: #3572b0;
 }
 
-.wiki-content .user-mention:before, .wiki-content .user-mention:hover:before, .wiki-content .user-mention:active:before, .wiki-content .user-mention:visited:before {
+.wiki-content a.user-mention:before, .wiki-content a.user-mention:hover:before, .wiki-content a.user-mention:active:before, .wiki-content a.user-mention:visited:before {
   background-color: #cccdcb;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Cpath fill='%23323133' d='M5.926 4.9c-.567 0-.904.45-.904 1.206 0 .752.342 1.207.899 1.207.576 0 .942-.464.942-1.207 0-.742-.361-1.206-.937-1.206zM6.092 2c2.329 0 3.93 1.475 3.93 3.618 0 1.568-.727 2.554-1.89 2.554-.595 0-1.04-.313-1.127-.786h-.088c-.205.498-.62.761-1.187.761-1.015 0-1.694-.83-1.694-2.065 0-1.186.679-2.007 1.665-2.007.518 0 .947.259 1.138.694h.088v-.591h.893v2.69c0 .347.181.547.498.547.542 0 .884-.684.884-1.748 0-1.768-1.264-2.94-3.154-2.94-1.895 0-3.228 1.392-3.228 3.375 0 2.021 1.324 3.305 3.404 3.305.576 0 1.157-.078 1.44-.19v.732a5.372 5.372 0 0 1-1.49.196C3.642 10.145 2 8.543 2 6.077 2 3.66 3.665 2 6.092 2z'/%3E%3C/svg%3E");
   background-size: contain;
@@ -494,12 +507,12 @@ div.panel.pdl {
   display: inline-block;
   height: 12px;
   line-height: 12px;
-  margin: 4px 3px 0 0;
+  margin: 0 3px -1px 0;
   text-decoration: none;
   width: 12px;
 }
 
-.wiki-content .current-user-mention:before, .wiki-content .current-user-mention:hover:before, .wiki-content .current-user-mention:active:before, .wiki-content .current-user-mention:visited:before {
+.wiki-content a.user-mention.current-user-mention:before, .wiki-content a.user-mention.current-user-mention:hover:before, .wiki-content a.user-mention.current-user-mention:active:before, .wiki-content a.user-mention.current-user-mention:visited:before {
   background-color: #3b73af;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Cpath fill='%23fefefe' d='M5.926 4.9c-.567 0-.904.45-.904 1.206 0 .752.342 1.207.899 1.207.576 0 .942-.464.942-1.207 0-.742-.361-1.206-.937-1.206zM6.092 2c2.329 0 3.93 1.475 3.93 3.618 0 1.568-.727 2.554-1.89 2.554-.595 0-1.04-.313-1.127-.786h-.088c-.205.498-.62.761-1.187.761-1.015 0-1.694-.83-1.694-2.065 0-1.186.679-2.007 1.665-2.007.518 0 .947.259 1.138.694h.088v-.591h.893v2.69c0 .347.181.547.498.547.542 0 .884-.684.884-1.748 0-1.768-1.264-2.94-3.154-2.94-1.895 0-3.228 1.392-3.228 3.375 0 2.021 1.324 3.305 3.404 3.305.576 0 1.157-.078 1.44-.19v.732a5.372 5.372 0 0 1-1.49.196C3.642 10.145 2 8.543 2 6.077 2 3.66 3.665 2 6.092 2z'/%3E%3C/svg%3E%0A");
   text-decoration: none;
