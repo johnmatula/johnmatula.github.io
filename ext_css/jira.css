@@ -423,12 +423,16 @@ h6:hover .handy-header {
   white-space: pre;
 }
 
+.wiki-content .aui-lozenge.aui-lozenge-current {
+  background: #efeef0;
+  color: #757476;
+}
+
 .wiki-content .aui-lozenge.aui-lozenge-error {
   background: #b1090d;
   color: #fefefe;
 }
 
-.wiki-content .aui-lozenge.aui-lozenge-current,
 .wiki-content .aui-lozenge.aui-lozenge-moved {
   background-color: #faa827;
   color: #111012;
