@@ -423,11 +423,6 @@ h6:hover .handy-header {
   white-space: pre;
 }
 
-.wiki-content .aui-lozenge.aui-lozenge-current {
-  background: #efeef0;
-  color: #757476;
-}
-
 .wiki-content .aui-lozenge.aui-lozenge-error {
   background: #b1090d;
   color: #fefefe;
@@ -444,7 +439,10 @@ h6:hover .handy-header {
 }
 
 .wiki-content .aui-lozenge-complete,
-.wiki-content .aui-lozenge-complete.aui-lozenge-subtle, #property-panel a.macro-property-panel-Blue span.icon.aui-lozenge-subtle {
+.wiki-content .aui-lozenge-complete.aui-lozenge-subtle,
+#property-panel a.macro-property-panel-Blue span.icon.aui-lozenge-subtle,
+.wiki-content .aui-lozenge.aui-lozenge-current {
+  background: #e5d0f2;
   background-color: #e5d0f2;
   color: #111012;
 }
