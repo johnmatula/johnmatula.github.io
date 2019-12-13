@@ -167,11 +167,12 @@ code {
   padding: 0 2px;
 }
 
-blockquote {
+.wiki-content blockquote {
   border-left: 2px solid #ccc;
-  color: #707070;
-  font-size: 1.2em;
-  margin: 20px 0 20px 8px;
+  color: #172b4d;
+  font-size: 1em;
+  font-weight: lighter;
+  margin: 20px 0 20px 18px;
   padding: 0px 20px;
 }
 
