@@ -168,6 +168,10 @@ pre, samp, code, .syntaxhighlighter, .syntaxhighlighter * {
   margin: 0 1px;
 }
 
+pre *, samp *, code * {
+  font-family: 'SF Mono', 'Monaco', 'Consolas', monospace !important;
+}
+
 code {
   padding: 0 2px;
 }
