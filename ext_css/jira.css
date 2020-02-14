@@ -16,6 +16,11 @@ h1, h2, h3, h4, h5, h6, .confluence-information-macro, ul, ol, blockquote, q, p,
   max-width: 850px;
 }
 
+hr {
+  margin: 2em 0;
+  max-width: 850px;
+}
+
 .wiki-content ul li,
 .wiki-content ol li {
   padding-top: .25em;
