@@ -26,8 +26,8 @@ hr {
   padding-top: .25em;
 }
 
-.wiki-content ul li:first-child,
-.wiki-content ol li:first-child {
+.wiki-content ul li:not(.menu-item):first-child,
+.wiki-content ol li:not(.menu-item):first-child {
   padding-top: 0em;
 }
 
@@ -156,7 +156,7 @@ h2 > strong > u, h2 > u > strong {
 }
 
 .confluence-information-macro>.title {
-  font-weight: 800; 
+  font-weight: 800;
 }
 
 
@@ -190,7 +190,7 @@ code {
 }
 
 .wiki-content h2 {
-  margin: 50px 0 0 0; 
+  margin: 50px 0 0 0;
 }
 
 .wiki-content h4 {
