@@ -199,7 +199,8 @@ code {
   margin: 25px 0 0 0;
 }
 
-table.confluenceTable {
+table.confluenceTable,
+ul. {
   max-width: 1150px;
 }
 
@@ -461,6 +462,15 @@ h6:hover .handy-header {
 
 .wiki-content .aui-lozenge::first-letter {
   text-transform: uppercase;
+}
+
+.wiki-content .aui-tabs.horizontal-tabs > .tabs-menu {
+  margin: 0 -10px 0;
+}
+
+.wiki-content .aui-tabs.horizontal-tabs > .tabs-pane {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .pdl .syntaxhighlighter a, .pdl .syntaxhighlighter div, .pdl .syntaxhighlighter code, .pdl .syntaxhighlighter table, .pdl .syntaxhighlighter table td, .pdl .syntaxhighlighter table tr, .pdl .syntaxhighlighter table tbody, .pdl .syntaxhighlighter table thead, .pdl .syntaxhighlighter table caption, .pdl .syntaxhighlighter textarea {
