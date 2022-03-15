@@ -1,65 +1,15 @@
 /* Outline-style numbering */
 .TOCOutline, .toc-outline, .toc-macro span.toc-outline {
   font-feature-settings: 'pnum' 0, 'tnum' 1;
-  padding-right: 10px;
 }
 
-.toc-item-body {
-  display: flex;
-}
-
-.toc-link {
-flex: 1 1 100%;
-padding: 3px 5px;
-margin: -3px -5px;
-border-radius: 2px;
-}
-
-.toc-link:hover {
-  background: #fafafa;
-  text-decoration: none;
-}
-
-.toc-link:active {
-  background: #ddd;
-}
-
-body, h1 {
+body, h1, #main-content {
   counter-reset: header subheader subsubheader;
-}
-
-.wiki-content {
-  margin-left: 3.5rem;
-  margin-left: 3.5rem;
-  padding-right: 300px;
-  max-width: 1450px;
-}
-
-.wiki-content h2 {
-  padding-top: 100px;
-}
-
-.wiki-content h2:first-of-type {
-  padding-top: 30px;
-}
-
-.toc-macro {
-  float: right;
-  position: sticky;
-  right: 0;
-  top: 2rem;
-  margin: 0 -300px 0 0;
-  max-height: calc(100vh - 60px);
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-.toc-macro, .jvm-summary {
-  margin-left: -3.5rem;
 }
 
 h2::before, h3::before, h4::before {
   display: inline-block;
+  color: #6B778C;
   font-weight: 800;
   padding: 0;
   position: absolute;
@@ -76,9 +26,8 @@ h2::before {
   counter-increment: header;
 }
 
-.wiki-content h3 {
+#main-content h3 {
   counter-reset: subsubheader;
-  margin-top: 50px;
 }
 
 h3::before {
